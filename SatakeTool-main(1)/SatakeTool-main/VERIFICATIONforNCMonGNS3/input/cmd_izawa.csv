@@ -1,0 +1,25 @@
+Cmd Type,Spec. Item Group,Spec. Item,Proc. Type,ID,Command,Modal,Dep. ID,Condition,sort num
+header,,,,1,enable,,,,
+header,,,,2,vlan database,TRUE,1,,2
+template,Vlan,num,set,3,vlan <num>,,2,,
+header,,,,4,configure terminal,,1,,
+template,Hostname,name,set,5,hostname <name>,,4,,
+template,EthernetSetting,*,set/unset,6,interface fastethernet <slot>/<port>,TRUE,4,,3
+template,EthernetSetting,port/shutdown,set,11,no shutdown,,6,
+template,EthernetSetting,mode,set,7,switchport mode <mode>,,6,
+template,EthernetSetting,accessVlan,set,10,switchport access vlan <accessVlan>,,6,,
+template,EthernetSetting,*,set,8,switchport trunk encapsulation <switchportTrunkEncapsulation>,,7,,
+template,EthernetSetting,nativeVlan,set,9,switchport trunk allowed vlan <nativeVlan>,,8,,
+template,StpSetting,*,set,12,spanning-tree vlan <vlan> priority <bridgePriority>,,4,,
+template,OspfSetting,*,set,13,ip routing,,4,,
+template,VlanSetting,vlanNum,set,16,interface vlan <vlanNum>,TRUE,4,,4
+template,VlanSetting,ipAddress/subnetMask,set,17,ip address <ipAddress> <subnetMask>,,16,,
+template,VlanSetting,accessListNumber/accessListInOrOut,set,18,ip access-group <accessListNumber> <accessListInOrOut>,,16,,
+template,IpRoute,network/addressPrefix/ipAddress,set,19,ip route <network> <addressPrefix> <ipAddress>,,13,,
+template,OspfSetting,processId,set,23,router ospf <processId>,TRUE,13,,5
+template,OspfSetting,routerId,set,24,router-id <routerId>,,23,,
+template,OspfInterfaceSetting,ipAddress/wildcardMask/areaId,set,25,network <ipAddress> <wildcardMask> area <areaId>,,23,,
+template,OspfVirtualLink,areaId/routerId,set,26,area <areaId> virtual-link <routerId>,,23,,
+template,OspfRedistribute,protocol,set,27,redistribute <protocol> subnets,,23,,
+mode_after,,,,14,exit,,,,
+footer,,,,15,exit,,,,

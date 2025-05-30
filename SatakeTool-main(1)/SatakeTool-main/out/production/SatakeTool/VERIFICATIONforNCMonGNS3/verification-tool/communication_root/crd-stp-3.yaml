@@ -1,0 +1,136 @@
+none:
+  communication-route:
+    Cl1-Cl2: 
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+    Cl1-Cl3: 
+      icmp: ["Cl1", "Cf1", "Cf3", "Cl3"]
+    Cl2-Cl1: 
+      icmp: ["Cl2", "Cf2", "Cf3", "Cf1", "Cl1"]
+    Cl2-Cl3: 
+      icmp: ["Cl2", "Cf2", "Cf3", "Cl3"]
+    Cl3-Cl1: 
+      icmp: ["Cl3", "Cf3", "Cf1", "Cl1"]
+    Cl3-Cl2: 
+      icmp: ["Cl3", "Cf3", "Cf2", "Cl2"]
+
+  stp: 
+    Cf1: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf2: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf3: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+
+Cf1-Cf2:
+  communication-route:
+    Cl1-Cl2: 
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+    Cl1-Cl3: 
+      icmp: ["Cl1", "Cf1", "Cf3", "Cl3"]
+    Cl2-Cl1: 
+      icmp: ["Cl2", "Cf2", "Cf3", "Cf1", "Cl1"]
+    Cl2-Cl3: 
+      icmp: ["Cl2", "Cf2", "Cf3", "Cl3"]
+    Cl3-Cl1: 
+      icmp: ["Cl3", "Cf3", "Cf1", "Cl1"]
+    Cl3-Cl2: 
+      icmp: ["Cl3", "Cf3", "Cf2", "Cl2"]
+  stp: 
+    Cf1: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf2: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf3: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+
+Cf2-Cf3:
+  communication-route:
+    Cl1-Cl2: 
+      icmp: ["Cl1", "Cf1", "Cf2", "Cl2"]
+    Cl1-Cl3: 
+      icmp: ["Cl1", "Cf1", "Cf3", "Cl3"]
+    Cl2-Cl1: 
+      icmp: ["Cl2", "Cf2", "Cf1", "Cl1"]
+    Cl2-Cl3: 
+      icmp: ["Cl2", "Cf2", "Cf1", "Cf3", "Cl3"]
+    Cl3-Cl1: 
+      icmp: ["Cl3", "Cf3", "Cf1", "Cl1"]
+    Cl3-Cl2: 
+      icmp: ["Cl3", "Cf3", "Cf1", "Cf2", "Cl2"]
+  stp: 
+    Cf1: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf2: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf3: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+
+Cf1-Cf3:
+  communication-route:
+    Cl1-Cl2: 
+      icmp: ["Cl1", "Cf1", "Cf2", "Cl2"]
+    Cl1-Cl3: 
+      icmp: ["Cl1", "Cf1", "Cf2", "Cf3", "Cl3"]
+    Cl2-Cl1: 
+      icmp: ["Cl2", "Cf2", "Cf1", "Cl1"]
+    Cl2-Cl3: 
+      icmp: ["Cl2", "Cf2", "Cf3", "Cl3"]
+    Cl3-Cl1: 
+      icmp: ["Cl3", "Cf3", "Cf2", "Cf1", "Cl1"]
+    Cl3-Cl2: 
+      icmp: ["Cl3", "Cf3", "Cf2", "Cl2"]
+  stp: 
+    Cf1: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf2: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True
+    Cf3: 
+      VLAN10: 
+        port_status: 
+          - [FastEthernet1/0, BLK]
+          - [FastEthernet1/1, BLK]
+        root_bridge: True

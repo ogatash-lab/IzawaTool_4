@@ -1,0 +1,7 @@
+vlan
+vlan: num
+OspfSetting
+OspfInterfaceSetting
+OspfInterfaceSetting: ipAddress
+OspfVirtualLink
+OspfVirtualLink: areaId

@@ -1,0 +1,1 @@
+show ip ospf interface briefInterface    PID   Area            IP Address/Mask    Cost  State Nbrs F/CVl10         1     0               10.0.1.2/24        10    DR    1/1Router#

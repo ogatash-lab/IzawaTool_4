@@ -1,0 +1,38 @@
+enable
+configure terminal
+ip routing
+interface fastethernet 1/9
+no shutdown
+switchport mode access
+switchport access vlan 80
+exit
+interface fastethernet 1/15
+no shutdown
+switchport mode access
+switchport access vlan 170
+exit
+interface fastethernet 1/4
+no shutdown
+switchport mode access
+switchport access vlan 90
+exit
+interface vlan 80
+ip address 10.0.8.1 255.255.255.0
+ip ospf cost 12
+exit
+interface vlan 90
+ip address 10.0.9.2 255.255.255.0
+ip ospf cost 10
+exit
+interface vlan 170
+ip address 10.0.17.2 255.255.255.0
+exit
+router ospf 1
+router-id 9.9.9.9
+area 7 virtual-link 8.8.8.8
+area 8 virtual-link 2.2.2.2
+network 10.0.9.0 0.0.0.255 area 8
+network 10.0.8.0 0.0.0.255 area 7
+redistribute connected subnets
+exit
+exit

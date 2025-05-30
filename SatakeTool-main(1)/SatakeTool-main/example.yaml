@@ -1,0 +1,7 @@
+vlan10:
+  port_status:
+  - - FastEthernet1/0
+    - BLK
+  - - FastEthernet1/0
+    - BLK
+  root_bridge: false

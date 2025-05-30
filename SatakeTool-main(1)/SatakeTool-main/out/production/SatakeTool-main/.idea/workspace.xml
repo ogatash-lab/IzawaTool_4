@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05049ead-7328-4052-ad58-45ff63838e17" name="変更" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/ExecTest$StreamThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/ExecTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/Main$StreamThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/Main_test$StreamThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/Main_test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/control/CommandTailor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/control/CommandTemplateParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/control/DifferenceDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/control/M2NciConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/command/CommandList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/command/CommandLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/nci/NetworkConfigurationInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/nci/NetworkConfigurationInformationPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/nci/ProcessType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/nci/ProcessType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/nci/SpecificationItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/nci/SpecificationItemGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/template/AbstractCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/template/AbstractCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/template/CommandTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/template/CommandTemplateFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SatakeTool/nci2dcl/entity/template/CommandTemplateFragmentType.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2xTKtul0bfcNTC3fFt9neT8PSjt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yukiy/OneDrive/デスクトップ/kenkyu_siryo/SatakeTool-main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="05049ead-7328-4052-ad58-45ff63838e17" name="変更" comment="" />
+      <created>1747956842026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747956842026</updated>
+      <workItem from="1747956843039" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

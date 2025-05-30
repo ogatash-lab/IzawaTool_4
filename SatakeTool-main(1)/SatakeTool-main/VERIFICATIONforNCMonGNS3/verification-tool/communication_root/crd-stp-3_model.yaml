@@ -1,0 +1,368 @@
+Cf1-Cf2:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf3
+      - Cf2
+      - Cl2
+    Cl1-Cl3:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf3
+      - Cl3
+    Cl2-Cl1:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf3
+      - Cf1
+      - Cl1
+    Cl2-Cl3:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf3
+      - Cl3
+    Cl3-Cl1:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf1
+      - Cl1
+    Cl3-Cl2:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf2
+      - Cl2
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: true
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf1-Cf3:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf2
+      - Cl2
+    Cl1-Cl3:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf2
+      - Cf3
+      - Cl3
+    Cl2-Cl1:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf1
+      - Cl1
+    Cl2-Cl3:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf3
+      - Cl3
+    Cl3-Cl1:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf2
+      - Cf1
+      - Cl1
+    Cl3-Cl2:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf2
+      - Cl2
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: true
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf2-Cf3:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf2
+      - Cl2
+    Cl1-Cl3:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf3
+      - Cl3
+    Cl2-Cl1:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf1
+      - Cl1
+    Cl2-Cl3:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf1
+      - Cf3
+      - Cl3
+    Cl3-Cl1:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf1
+      - Cl1
+    Cl3-Cl2:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf1
+      - Cf2
+      - Cl2
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: true
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+none:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf2
+      - Cl2
+    Cl1-Cl3:
+      icmp:
+      - Cl1
+      - Cf1
+      - Cf3
+      - Cl3
+    Cl2-Cl1:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf1
+      - Cl1
+    Cl2-Cl3:
+      icmp:
+      - Cl2
+      - Cf2
+      - Cf1
+      - Cf3
+      - Cl3
+    Cl3-Cl1:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf1
+      - Cl1
+    Cl3-Cl2:
+      icmp:
+      - Cl3
+      - Cf3
+      - Cf1
+      - Cf2
+      - Cl2
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: true
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - BLK
+        root_bridge: false
+      VLAN10:
+        port_status:
+        - - FastEthernet1/0
+          - FWD
+        - - FastEthernet1/1
+          - LIS
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false

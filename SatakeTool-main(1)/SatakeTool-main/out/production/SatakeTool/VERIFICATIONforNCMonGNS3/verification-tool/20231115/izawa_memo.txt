@@ -1,0 +1,26 @@
+[ERROR result for this file]    [DOWN result for this file]    [TRACE result for this file]
+Cf1    0                        Cf1     0                     Cf1      5
+Cf2    0                        Cf2     0                     Cf2    116
+Cf3    0                        Cf3    17                     Cf3    149
+Cf4    0                        Cf4    28                     Cf4    223
+Cf5    0                        Cf5    27                     Cf5    210
+Cf6    0                        Cf6     8                     Cf6    138
+Cf7    0                        Cf7     0                     Cf7    116
+Cf8    0                        Cf8     0                     Cf8    132
+Cf9    0                        Cf9     0                     Cf9    111
+
+DOWN exists!!!
+Neighbor relationship not established.
+prediction_devices ['Cf4', 'Cf5', 'Cf3']
+
+Where errors can exist in the network model
+EthernetSetting
+EthernetSetting: slot/port
+EthernetSetting: accessVlan
+OspfSetting: routerId
+OspfInterfaceSetting: areaId
+
+
+
+
+

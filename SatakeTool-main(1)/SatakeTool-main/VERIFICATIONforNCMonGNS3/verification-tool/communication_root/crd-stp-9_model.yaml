@@ -1,0 +1,2770 @@
+Cf2-Cf3:
+  communication-route:
+    Cl1-Cl2:
+      icmp: []
+    Cl1-Cl3:
+      icmp: []
+    Cl1-Cl4:
+      icmp: []
+    Cl1-Cl5:
+      icmp: []
+    Cl1-Cl6:
+      icmp: []
+    Cl1-Cl7:
+      icmp: []
+    Cl1-Cl8:
+      icmp: []
+    Cl1-Cl9:
+      icmp: []
+    Cl2-Cl1:
+      icmp: []
+    Cl2-Cl3:
+      icmp: []
+    Cl2-Cl4:
+      icmp: []
+    Cl2-Cl5:
+      icmp: []
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf2-Cf9:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf3-Cf4:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf4-Cf5:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf5-Cf6:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf6-Cf7:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf7-Cf8:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+Cf8-Cf9:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+idge: false
+none:
+  communication-route:
+    Cl1-Cl2:
+      icmp:
+      - file error
+    Cl1-Cl3:
+      icmp:
+      - file error
+    Cl1-Cl4:
+      icmp:
+      - file error
+    Cl1-Cl5:
+      icmp:
+      - file error
+    Cl1-Cl6:
+      icmp:
+      - file error
+    Cl1-Cl7:
+      icmp:
+      - file error
+    Cl1-Cl8:
+      icmp:
+      - file error
+    Cl1-Cl9:
+      icmp:
+      - file error
+    Cl2-Cl1:
+      icmp:
+      - file error
+    Cl2-Cl3:
+      icmp:
+      - file error
+    Cl2-Cl4:
+      icmp:
+      - file error
+    Cl2-Cl5:
+      icmp:
+      - file error
+    Cl2-Cl6:
+      icmp:
+      - file error
+    Cl2-Cl7:
+      icmp:
+      - file error
+    Cl2-Cl8:
+      icmp:
+      - file error
+    Cl2-Cl9:
+      icmp:
+      - file error
+    Cl3-Cl1:
+      icmp:
+      - file error
+    Cl3-Cl2:
+      icmp:
+      - file error
+    Cl3-Cl4:
+      icmp:
+      - file error
+    Cl3-Cl5:
+      icmp:
+      - file error
+    Cl3-Cl6:
+      icmp:
+      - file error
+    Cl3-Cl7:
+      icmp:
+      - file error
+    Cl3-Cl8:
+      icmp:
+      - file error
+    Cl3-Cl9:
+      icmp:
+      - file error
+    Cl4-Cl1:
+      icmp:
+      - file error
+    Cl4-Cl2:
+      icmp:
+      - file error
+    Cl4-Cl3:
+      icmp:
+      - file error
+    Cl4-Cl5:
+      icmp:
+      - file error
+    Cl4-Cl6:
+      icmp:
+      - file error
+    Cl4-Cl7:
+      icmp:
+      - file error
+    Cl4-Cl8:
+      icmp:
+      - file error
+    Cl4-Cl9:
+      icmp:
+      - file error
+    Cl5-Cl1:
+      icmp:
+      - file error
+    Cl5-Cl2:
+      icmp:
+      - file error
+    Cl5-Cl3:
+      icmp:
+      - file error
+    Cl5-Cl4:
+      icmp:
+      - file error
+    Cl5-Cl6:
+      icmp:
+      - file error
+    Cl5-Cl7:
+      icmp:
+      - file error
+    Cl5-Cl8:
+      icmp:
+      - file error
+    Cl5-Cl9:
+      icmp:
+      - file error
+    Cl6-Cl1:
+      icmp:
+      - file error
+    Cl6-Cl2:
+      icmp:
+      - file error
+    Cl6-Cl3:
+      icmp:
+      - file error
+    Cl6-Cl4:
+      icmp:
+      - file error
+    Cl6-Cl5:
+      icmp:
+      - file error
+    Cl6-Cl7:
+      icmp:
+      - file error
+    Cl6-Cl8:
+      icmp:
+      - file error
+    Cl6-Cl9:
+      icmp:
+      - file error
+    Cl7-Cl1:
+      icmp:
+      - file error
+    Cl7-Cl2:
+      icmp:
+      - file error
+    Cl7-Cl3:
+      icmp:
+      - file error
+    Cl7-Cl4:
+      icmp:
+      - file error
+    Cl7-Cl5:
+      icmp:
+      - file error
+    Cl7-Cl6:
+      icmp:
+      - file error
+    Cl7-Cl8:
+      icmp:
+      - file error
+    Cl7-Cl9:
+      icmp:
+      - file error
+    Cl8-Cl1:
+      icmp:
+      - file error
+    Cl8-Cl2:
+      icmp:
+      - file error
+    Cl8-Cl3:
+      icmp:
+      - file error
+    Cl8-Cl4:
+      icmp:
+      - file error
+    Cl8-Cl5:
+      icmp:
+      - file error
+    Cl8-Cl6:
+      icmp:
+      - file error
+    Cl8-Cl7:
+      icmp:
+      - file error
+    Cl8-Cl9:
+      icmp:
+      - file error
+    Cl9-Cl1:
+      icmp:
+      - file error
+    Cl9-Cl2:
+      icmp:
+      - file error
+    Cl9-Cl3:
+      icmp:
+      - file error
+    Cl9-Cl4:
+      icmp:
+      - file error
+    Cl9-Cl5:
+      icmp:
+      - file error
+    Cl9-Cl6:
+      icmp:
+      - file error
+    Cl9-Cl7:
+      icmp:
+      - file error
+    Cl9-Cl8:
+      icmp:
+      - file error
+  stp:
+    Cf1:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN50:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false

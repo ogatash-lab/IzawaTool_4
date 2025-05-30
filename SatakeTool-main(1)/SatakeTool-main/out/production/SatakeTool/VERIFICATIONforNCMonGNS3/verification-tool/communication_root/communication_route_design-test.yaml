@@ -1,0 +1,61 @@
+none:
+  communication-route:
+    Cl1-Cl2: 
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # smtp: []
+      # snmp: []
+    Cl1-Cl3:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # smtp: []
+      # snmp: []
+    Cl2-Cl1:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # smtp: []
+      # snmp: []
+    Cl2-Cl3:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # smtp: []
+      # snmp: []
+    Cl3-Cl1:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # smtp: []
+      # snmp: []
+    Cl3-Cl2:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      # smtp: []
+      # snmp: []
+  stp: 
+    Cf1: 
+      VLAN110: 
+        root_bridge: False
+        port_status: 
+          - ["FastEthernet1/0", "BLK"]
+          - ["FastEthernet1/1", "FWD"]
+          - ["FastEthernet1/2", "FWD"]
+      VLAN120: 
+        root_bridge: False
+        port_status: 
+          - ["FastEthernet1/0", "BLK"]
+          - ["FastEthernet1/1", "FWD"]
+          - ["FastEthernet1/2", "FWD"]
+    Cf2: 
+      VLAN110: 
+        root_bridge: False
+        port_status: 
+          - ["FastEthernet1/0", "BLK"]
+          - ["FastEthernet1/1", "FWD"]
+          - ["FastEthernet1/2", "FWD"]
+  ospf: 
+    Cf1: 
+      vlan10:
+        status: "DR"
+        neighbor: [とか？] 
+    Cf2:
+    Cf3:
+Cf1-Cf2:

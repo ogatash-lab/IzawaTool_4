@@ -1,0 +1,1 @@
+trace 10.0.11.1 -m 10trace to 10.0.11.1, 10 hops max, press Ctrl+C to stop 1   10.0.16.2   29.747 ms  15.156 ms  15.334 ms 2   10.0.8.1   61.951 ms  47.272 ms  47.752 ms 3   10.0.9.1   121.582 ms  122.755 ms  105.961 ms 4   10.0.2.2   196.196 ms  135.734 ms  105.867 ms 5   *10.0.11.1   121.210 ms (ICMP type:3, code:3, Destination port unreachable)VPCS>

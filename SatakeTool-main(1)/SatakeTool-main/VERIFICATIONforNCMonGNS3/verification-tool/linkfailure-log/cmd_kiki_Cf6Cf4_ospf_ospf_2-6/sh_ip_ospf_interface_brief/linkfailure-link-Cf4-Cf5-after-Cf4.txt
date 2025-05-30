@@ -1,0 +1,1 @@
+show ip ospf interface briefRouter#

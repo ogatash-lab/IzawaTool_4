@@ -1,0 +1,40 @@
+enable
+configure terminal
+ip routing
+interface fastethernet 1/15
+no shutdown
+switchport mode access
+switchport access vlan 140
+exit
+interface fastethernet 1/7
+no shutdown
+switchport mode access
+switchport access vlan 60
+exit
+interface fastethernet 1/6
+no shutdown
+switchport mode access
+switchport access vlan 50
+exit
+interface fastethernet 1/10
+no shutdown
+switchport mode access
+switchport access vlan 15
+exit
+interface vlan 140
+ip address 10.0.14.2 255.255.255.0
+exit
+interface vlan 50
+ip address 10.0.5.2 255.255.255.0
+ip ospf cost 12
+exit
+hostname campus4
+interface vlan 60
+ip address 10.0.6.2 255.255.255.0
+ip ospf cost 10
+exit
+interface vlan 15
+ip address 10.0.20.2 255.255.255.0
+ip ospf cost 10
+exit
+exit

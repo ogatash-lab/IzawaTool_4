@@ -1,0 +1,15 @@
+.idea/
+out/
+SatakeTool.iml
+LICENSE
+VERIFICATIONforNCMonGNS3/stderr.txt
+VERIFICATIONforNCMonGNS3/stdout.txt
+VERIFICATIONforNCMonGNS3/verification-tool/cmd_node/
+VERIFICATIONforNCMonGNS3/verification-tool/etc/
+VERIFICATIONforNCMonGNS3/verification-tool/kikisettei/
+VERIFICATIONforNCMonGNS3/verification-tool/link_create_info/
+VERIFICATIONforNCMonGNS3/verification-tool/linkfailure-log/
+VERIFICATIONforNCMonGNS3/verification-tool/NetworkConfiguration/
+VERIFICATIONforNCMonGNS3/verification-tool/node_create_info/
+VERIFICATIONforNCMonGNS3/.idea
+VERIFICATIONforNCMonGNS3/VERIFICATIONforNCMonGNS3.iml

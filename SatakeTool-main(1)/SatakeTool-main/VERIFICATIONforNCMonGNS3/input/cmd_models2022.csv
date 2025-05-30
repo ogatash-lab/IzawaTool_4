@@ -1,0 +1,15 @@
+Cmd Type,Spec. Item Group,Spec. Item,Proc. Type,ID,Command,Modal,Dep. ID,Condition
+header,,,,1,enable,,,
+header,,,,2,vlan database,TRUE,1,
+template,Vlan,num,set,3,vlan <num>,,2,
+header,,,,4,configure terminal,,1,
+template,Hostname,name,set,5,hostname <name>,,4,
+template,StpNeedSetting,*,set,12,spanning-tree vlan <vlan> priority <bridgePriority>,,4,
+template,EthernetNeedSetting,*,set/unset,6,interface fastethernet <slot>/<port>,TRUE,4,
+template,SwitchPort,mode,set,7,switchport mode <mode>,,6,
+template,SwitchPort,accessVlan,set,10,switchport access vlan <accessVlan>,,7,<mode>==access
+template,SwitchPort,*,set,8,switchport trunk encapsulation <switchportTrunkEncapsulation>,,7,<mode>==trunk
+template,SwitchPort,nativeVlan,set,9,switchport trunk allowed vlan <nativeVlan>,,8,
+template,EthernetNeedSetting,port/shutdown,set,11,no shutdown,,6,<shutdown> ==false
+mode_after,,,,14,exit,,,
+footer,,,,15,exit,,,

@@ -1,0 +1,52 @@
+communication-route:
+  none:
+    Cl1-Cl2: 
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      smtp: []
+      snmp: []
+    Cl1-Cl3:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      smtp: []
+      snmp: []
+    Cl2-Cl1:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      smtp: []
+      snmp: []
+    Cl2-Cl3:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      smtp: []
+      snmp: []
+    Cl3-Cl1:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      smtp: []
+      snmp: []
+    Cl3-Cl2:
+      icmp: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      http: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+      smtp: []
+      snmp: []
+  Cf1-Cf2:
+
+# どこか別に各ホスト名がどの機能なのか（FWなのか，L3スイッチなのか）定義する欄があってもいいかも
+# どのポートを利用するかはモデルの方で定義するかな
+# mail-server, http-server, 負荷分散装置, firewall
+device:
+  l2switch: []
+  l3switch: [Cf1, Cf2, Cf3]
+  client: [Cl1, Cl2, Cl3]
+  server: []
+
+status:
+  none:
+    # とりあえず、取得方法に合わせて全部リストにしよかな
+    ospf:
+    stp:
+  Cf1-Cf2:
+
+# ルーティングテーブルは通信経路がそれみたいなものでは？
+# また、記載内容がモデルと重複する？static routeとか

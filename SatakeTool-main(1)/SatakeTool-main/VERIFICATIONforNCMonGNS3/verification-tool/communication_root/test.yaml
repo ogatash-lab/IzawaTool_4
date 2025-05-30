@@ -1,0 +1,31 @@
+- none:
+  - Cl1-Cl2: ["Cl1", "Cf1", "Cf2", "Cl2"]
+  - Cl1-Cl3: ["Cl1", "Cf1", "Cf3", "Cl3"]
+  - Cl2-Cl1: ["Cl2", "Cf2", "Cf1", "Cl1"]
+  - Cl2-Cl3: ["Cl2", "Cf2", "Cf1", "Cf3", "Cl3"]
+  - Cl3-Cl1: ["Cl3", "Cf3", "Cf1", "Cl1"]
+  - Cl3-Cl2: ["Cl3", "Cf3", "Cf1", "Cf2", "Cl2"]
+
+- Cf1-Cf2:
+  - Cl1-Cl2: ["Cl1", "Cf1", "Cf3", "Cf2", "Cl2"]
+  - Cl1-Cl3: ["Cl1", "Cf1", "Cf3", "Cl3"]
+  - Cl2-Cl1: ["Cl2", "Cf2", "Cf3", "Cf1", "Cl1"]
+  - Cl2-Cl3: ["Cl2", "Cf2", "Cf3", "Cl3"]
+  - Cl3-Cl1: ["Cl3", "Cf3", "Cf1", "Cl1"]
+  - Cl3-Cl2: ["Cl3", "Cf3", "Cf2", "Cl2"]
+
+- Cf2-Cf3:
+  - Cl1-Cl2: ["Cl1", "Cf1", "Cf2", "Cl2"]
+  - Cl1-Cl3: ["Cl1", "Cf1", "Cf3", "Cl3"]
+  - Cl2-Cl1: ["Cl2", "Cf2", "Cf1", "Cl1"]
+  - Cl2-Cl3: ["Cl2", "Cf2", "Cf1", "Cf3", "Cl3"]
+  - Cl3-Cl1: ["Cl1", "Cf1", "Cf2", "Cl2"]
+  - Cl3-Cl2: ["Cl3", "Cf3", "Cf1", "Cf2", "Cl2"]
+
+- Cf3-Cf1:
+  - Cl1-Cl2: ["Cl1", "Cf1", "Cf2", "Cl2"]
+  - Cl1-Cl3: ["Cl1", "Cf1", "Cf2", "Cf3", "Cl3"]
+  - Cl2-Cl1: ["Cl2", "Cf2", "Cf1", "Cl1"]
+  - Cl2-Cl3: ["Cl2", "Cf2", "Cf3", "Cl3"]
+  - Cl3-Cl1: ["Cl3", "Cf3", "Cf2", "Cf1", "Cl1"]
+  - Cl3-Cl2: ["Cl3", "Cf3", "Cf2", "Cl2"]

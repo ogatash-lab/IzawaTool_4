@@ -1,0 +1,26 @@
+enable
+configure terminal
+ip routing
+interface fastethernet 1/15
+no shutdown
+switchport mode access
+switchport access vlan 100
+exit
+interface fastethernet 1/2
+no shutdown
+switchport mode access
+switchport access vlan 10
+exit
+interface vlan 100
+ip address 10.0.19.2 255.255.255.0
+exit
+interface vlan 10
+ip address 10.0.1.2 255.255.255.0
+ip ospf cost 10
+exit
+router ospf 1
+router-id 1.1.1.1
+network 10.0.1.0 0.0.0.255 area 0
+redistribute connected subnets
+exit
+exit

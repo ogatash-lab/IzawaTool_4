@@ -1,0 +1,51 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  1260  100  1201  100    59  34929   1715 --:--:-- --:--:-- --:--:-- 37058
+{
+    "command_line": "",
+    "compute_id": "local",
+    "console": 5020,
+    "console_auto_start": false,
+    "console_host": "localhost",
+    "console_type": "telnet",
+    "custom_adapters": [],
+    "first_port_name": null,
+    "height": 59,
+    "label": {
+        "rotation": 0,
+        "style": null,
+        "text": "Cl11",
+        "x": null,
+        "y": -40
+    },
+    "locked": false,
+    "name": "Cl11",
+    "node_directory": "C:\\Users\\yukiy\\GNS3\\projects\\test\\project-files\\vpcs\\379e1cba-8d77-4ecc-8034-779bfe72bb5e",
+    "node_id": "379e1cba-8d77-4ecc-8034-779bfe72bb5e",
+    "node_type": "vpcs",
+    "port_name_format": "Ethernet{0}",
+    "port_segment_size": 0,
+    "ports": [
+        {
+            "adapter_number": 0,
+            "data_link_types": {
+                "Ethernet": "DLT_EN10MB"
+            },
+            "link_type": "ethernet",
+            "name": "Ethernet0",
+            "port_number": 0,
+            "short_name": "e0"
+        }
+    ],
+    "project_id": "acbe138d-1064-45c9-9248-f7b1bf97bf2c",
+    "properties": {},
+    "status": "stopped",
+    "symbol": ":/symbols/computer.svg",
+    "template_id": null,
+    "width": 65,
+    "x": 0,
+    "y": 0,
+    "z": 1
+}

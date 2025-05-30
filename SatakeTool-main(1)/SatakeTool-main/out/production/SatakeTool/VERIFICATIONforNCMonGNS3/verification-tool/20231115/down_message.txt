@@ -1,0 +1,5 @@
+EthernetSetting
+EthernetSetting: slot/port
+EthernetSetting: accessVlan
+OspfSetting: routerId
+OspfInterfaceSetting: areaId

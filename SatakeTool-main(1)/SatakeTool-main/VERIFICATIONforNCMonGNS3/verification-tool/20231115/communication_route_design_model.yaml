@@ -1,0 +1,5192 @@
+Cf2-Cf3:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+Cf2-Cf9:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+Cf3-Cf4:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+Cf4-Cf5:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+Cf5-Cf6:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+Cf6-Cf7:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+Cf7-Cf8:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+Cf8-Cf9:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - FWD
+        root_bridge: false
+    Cf7:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/7
+          - FWD
+        - - FastEthernet1/8
+          - FWD
+        root_bridge: false
+    Cf8:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/8
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+    Cf9:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/9
+          - FWD
+        root_bridge: false
+none:
+  stp:
+    Cf1:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: true
+      VLAN100:
+        port_status:
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+      VLAN110:
+        port_status:
+          - ["FastEthernet1/0", "BLK"]
+          - ["FastEthernet1/1", "FWD"]
+          - ["FastEthernet1/2", "FWD"]
+        root_bridge: false
+      VLAN120:
+        port_status:
+          - ["FastEthernet1/0", "BLK"]
+          - ["FastEthernet1/1", "FWD"]
+          - ["FastEthernet1/2", "FWD"]
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        root_bridge: false
+    Cf2:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+          - ["FastEthernet1/0", "BLK"]
+          - ["FastEthernet1/1", "FWD"]
+          - ["FastEthernet1/2", "FWD"]
+        root_bridge: true
+      VLAN120:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN130:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN140:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN150:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN160:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN170:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: true
+      VLAN180:
+        port_status:
+        - - FastEthernet1/2
+          - FWD
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: true
+    Cf3:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/3
+          - FWD
+        - - FastEthernet1/4
+          - FWD
+        root_bridge: false
+    Cf4:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/4
+          - FWD
+        - - FastEthernet1/5
+          - FWD
+        root_bridge: false
+    Cf5:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/5
+          - FWD
+        - - FastEthernet1/6
+          - FWD
+        root_bridge: false
+    Cf6:
+      VLAN1:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        root_bridge: false
+      VLAN110:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - LIS
+        root_bridge: false
+      VLAN120:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        root_bridge: false
+      VLAN130:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        root_bridge: false
+      VLAN140:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        - - FastEthernet1/15
+          - FWD
+        root_bridge: false
+      VLAN150:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        root_bridge: false
+      VLAN160:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        root_bridge: false
+      VLAN170:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        root_bridge: false
+      VLAN180:
+        port_status:
+        - - FastEthernet1/6
+          - FWD
+        - - FastEthernet1/7
+          - BLK
+        root_bridge: false

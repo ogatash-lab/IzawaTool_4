@@ -1,0 +1,14 @@
+HEADER,,,NO_CHECK,1,enable,false,-1,
+HEADER,,,NO_CHECK,2,vlan database,true,1,
+TEMPLATE,Vlan,num,SET,3,vlan <num>,false,2,
+HEADER,,,NO_CHECK,4,configure terminal,false,1,
+TEMPLATE,Hostname,name,SET,5,hostname <name>,false,4,
+TEMPLATE,StpNeedSetting,*,SET,12,spanning-tree vlan <vlan> priority <bridgePriority>,false,4,
+TEMPLATE,EthernetNeedSetting,*,UNSET/SET,6,interface fastethernet <slot>/<port>,true,4,
+TEMPLATE,SwitchPort,mode,SET,7,switchport mode <mode>,false,6,
+TEMPLATE,SwitchPort,accessVlan,SET,10,switchport access vlan <accessVlan>,false,7,<mode> == access
+TEMPLATE,SwitchPort,*,SET,8,switchport trunk encapsulation <switchportTrunkEncapsulation>,false,7,<mode> == trunk
+TEMPLATE,SwitchPort,nativeVlan,SET,9,switchport trunk allowed vlan <nativeVlan>,false,8,
+TEMPLATE,EthernetNeedSetting,port/shutdown,SET,11,no shutdown,false,6,<shutdown> == false
+MODE_AFTER,,,NO_CHECK,14,exit,false,-1,
+FOOTER,,,NO_CHECK,15,exit,false,-1,

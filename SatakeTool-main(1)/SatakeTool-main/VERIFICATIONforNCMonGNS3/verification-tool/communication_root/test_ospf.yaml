@@ -1,0 +1,10 @@
+- none:
+  - Cl1-Cl2: ["Cl1", "Cf1", "Cf2", "Cl2"]
+  - Cl1-Cl3: ["Cl1", "Cf1", "Cf2", "Cf3", "Cl3"]
+  - Cl1-Cl4: ["Cl1", "Cf1", "Cf2", "Cf3", "Cf4", "Cl4"]
+  - Cl1-Cl5: ["Cl1", "Cf1", "Cf2", "Cf3", "Cf4", "Cf5", "Cl5"]
+  - Cl1-Cl6: ["Cl1", "Cf1", "Cf2", "Cf3", "Cf4", "Cf5", "Cf6", "Cl6"]
+
+- Cf2-Cf3:
+  - Cl1-Cl2: ["Cl1", "Cf1", "Cf2", "Cl2"]
+  - Cl1-Cl3: ["Cl1", "Cf1", "Cf9", "Cf8", "Cf7", "Cf6", "Cf5", "Cf4", "Cf3", "Cl3"]
